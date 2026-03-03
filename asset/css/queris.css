@@ -1,0 +1,21 @@
+@media screen and (max-width:480px) {
+
+    .quienes-somos{
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+    .img-repro{
+    width: 100%;
+}
+
+.servicios{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+}
