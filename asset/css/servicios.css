@@ -1,0 +1,19 @@
+.servicios-container{
+    background-color: var(--white-font);
+    padding: 80px 30px;
+    color: var(--gray-dark);
+}
+
+.servicios{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+}
+
+.titulo{
+    color: var(--primary-color);
+}
+
+.col i{
+    color: var(--primary-color);
+}

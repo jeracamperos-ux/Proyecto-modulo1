@@ -1,0 +1,30 @@
+.quienes-somos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: var(--gray-dark);
+    padding: 80px;
+    gap: 50px;
+    text-align: left;
+
+}
+
+.padding-80{
+    padding: 5px 40px 10px 5px;
+}
+
+.img-repro{
+    width: 750px;
+    /*border: 1px solid white;*/
+    border-radius: 25px;
+}
+
+.quienes-somos h1{
+    color: var(--primary-color);
+    font-size: 36px;
+    font-weight: 800;
+    
+}
+
+.lista{
+    text-align: left;
+}

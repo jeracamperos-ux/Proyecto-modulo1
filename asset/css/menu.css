@@ -1,0 +1,31 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    background-color: var(--primary-color); 
+}
+
+.navbar-list{
+    display: flex;
+    gap: 20px;
+
+}
+
+.navbar-list a{
+    display: block;
+    font-size: 20px;
+    color: var(--white-font);
+    padding: 1rem 1rem;
+    margin: 10px 0px;
+}
+
+.navbar-list a:hover{
+    color: var(--gray-dark);
+}
+
+.logo{
+    width: 150px;
+    padding: 1rem 1rem;
+    
+}
