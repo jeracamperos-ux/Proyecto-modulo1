@@ -1,0 +1,16 @@
+.quienes-somos h1{
+    animation-name: quienes-somos-h1;
+    animation-duration: 1s;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    margin: 45px;
+}
+
+@keyframes quienes-somos-h1{
+    100%{color: var(--primary-color); bottom: 100px; top: 20px;}
+}
+
+    
+
+    

@@ -20,7 +20,7 @@
 
 .quienes-somos h1{
     color: var(--primary-color);
-    font-size: 36px;
+    font-size: 50px;
     font-weight: 800;
     
 }
@@ -28,3 +28,4 @@
 .lista{
     text-align: left;
 }
+
