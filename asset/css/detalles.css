@@ -2,7 +2,7 @@
     animation-name: quienes-somos-h1;
     animation-duration: 3s;
     position: relative;
-    animation-iteration-count: infinite;
+    animation-iteration-count:infinite; 
     animation-delay: 1s;
     margin: 45px;
 }
@@ -22,15 +22,15 @@
 
 
 
-.boton{
+.botonn{
     width: 100px;
     height: 30px;
     background-color: var(--primary-color);
     font-size: 15px;
     border: none;
-    animation-name: boton;
+    animation-name: botonn;
     animation-duration: 2s;
-    animation-iteration-count: infinite;
+    animation-iteration-count:infinite; 
     animation-delay: 1s;
     position: relative;
     border-radius: 5px;
@@ -38,7 +38,7 @@
 }
 
 
-@keyframes boton {
+@keyframes botonn {
 
     0% {background-color: rgb(34, 138, 161); left: 0px; top: 0px;}
     100% {background-color: var(--primary-color);left: 10px;top: 0px; right: 0px; bottom: 0px;}
