@@ -1,12 +1,19 @@
 @media screen and (max-width:480px) {
 
-    .quienes-somos{
+  .quienes-somos{
     display: grid;
     grid-template-columns: 1fr;
-
 }
     .img-repro{
     width: 100%;
+}
+
+.quienes-somos h1{
+    color: var(--primary-color);
+    font-size: 50px;
+    font-weight: 800px;
+    line-height: 0.7;
+    
 }
 
 .servicios{
@@ -19,3 +26,10 @@
     grid-template-columns: 1fr;
 }
 }
+
+.contacto{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+

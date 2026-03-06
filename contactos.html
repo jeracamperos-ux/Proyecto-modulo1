@@ -5,9 +5,8 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width= device-width, intitial scale= 1.0">
-        <title>ReprocolorGrafig</title>
+        <title>ReprocolorGrafig-Contactos</title>
         <link rel="stylesheet" href="asset/css/main.css">
-        <link rel="stylesheet" href="asset/css/animacion.css">
         <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <link rel="stylesheet" href="asset/fontawesome-free-7.1.0-web/css/all.css">
     </head>
@@ -25,63 +24,47 @@
             </nav>
         </header>
 
-        <section class="quienes-somos">
-                <img src="asset/images/reprocolor.jpeg" alt="reprocolor" class="img-repro"> 
-
-                <div class="center">
-                <h1>Quienes Somos</h1>
-                <p>En ReprocolorGrafig, combinamos el arte de la impresion con la fuerza del diseno y la publicidad. Somos
-                    especialistas en crear presencia visual: desde pequenos formatos hasta vallas y pendones de gran escala.
-                    Nuestro compromiso es transformar tus ideas en imagenes impactantes y entregarte resultados impecables
-                    que posicionen tu marca o negocio donde todos puedan verlo. Contamos con;</p>
-                    <div class="lista">
-                <ul>
-                    <li><i class="fa-regular fa-circle-check"></i>Vallas Publicitarias</li>
-                    <li><i class="fa-regular fa-circle-check"></i>Pendones y Banners</li>
-                    <li><i class="fa-regular fa-circle-check"></i>Rotulacion</li>
-                    <li><i class="fa-regular fa-circle-check"></i>Senaletica Corporativa</li>
-                    <li><i class="fa-regular fa-circle-check"></i>Agendas y libros</li>
-                    <li><i class="fa-regular fa-circle-check"></i>Material P.O.P</li>
-                    <li><i class="fa-regular fa-circle-check"></i>Talonarios</li>
-                    <li><i class="fa-regular fa-circle-check"></i>Laminados</li>
-                    <li><i class="fa-regular fa-circle-check"></i>Cortes Especiales, etc</li>
-                </ul>
-            </div>
-        </section>
-        
-        <section class="servicios-container center animate__animated animate__fadeInLeft">
-            <h2 class="titulo">Conoce los servicios que tenemos para ti</h2>
-            <p>Ofrecemos una amplia gama de servicios de impresion y diseno para potenciar tu marca o negocio</p>
-            <div class="servicios">
-                <div class="col"><i class="fa-solid fa-signs-post"></i>
-                <h3 class="titulo">Señaletica</h3>
-                <p>Fabricacion de senalitica coorporativa</p>
+        <section class="contactos-container">
+            <h1 class="center">Contactos</h1>
+            <div class="contacto">
+                <div class="col center">
+                    <p>Deja tu mensaje y en breve te contestaremos.</p>
+                    <p>Puedes contactarnos a traves de whatsapp al 0414-451.9118</p>
+                    <p>O de manera presencial en nuestra sede.</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3926.1269032000105!2d-67.62990572236104!3d10.251347663740702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e803de4b5fb048f%3A0x1b6016cada3a701f!2sReprocolor%20Grafig%2C%20C.A.%20impresiones%20publicitaria!5e0!3m2!1ses-419!2sve!4v1772766508490!5m2!1ses-419!2sve" width="700" height="500" style="border:0px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-                <div class="col"><i class="fa-solid fa-book"></i>
-                <h3 class="titulo">Agendas y Libros</h3>
-                <p>Diseno de agendas y libros personalizados</p>
-                </div>
-                <div class="col"><i class="fa-solid fa-pen-clip"></i>
-                <h3 class="titulo">Material P.O.P</h3>
-                <p>Franelas, gorras, tasas, etc</p>
-                </div>
-                <div class="col"><i class="fa-solid fa-money-check-dollar"></i>
-                <h3 class="titulo">Talonarios</h3>
-                <p>Impresion de talonarios personalizados</p>
-                </div>
-                <div class="col"><i class="fa-solid fa-tarp"></i>
-                <h3 class="titulo">Laminados</h3>
-                <p>Protege tus impresiones con laminados de alta calidad</p>
-                </div>
-                <div class="col"><i class="fa-solid fa-border-top-left"></i>
-                <h3 class="titulo">Cortes Especiales</h3>
-                <p>Cortes personalizados adaptados a tus necesidades</p>
-                </div>
-            </div>
-            <input type="submit" value="Ver mas" class="boton"></input>
+            <div class="col">
+            <name="contactos" action="#" method="post">
+                <label>Nombre</label>
+                <input type="text" placeholder="Escribe tu nombre">
+                <label>Apellido</label>
+                <input type="text" placeholder="Escribe tu apellido">
+                <label>Email</label>
+                <input type="text" placeholder="Escribe tu correo electronico">
+                <label>Ciudad</label>
+                <select name="ciudad">
+                    <option value="caracas">Caracas</option>
+                    <option value="maracay">Maracay</option>
+                    <option value="valencia">Valencia</option>
+                </select>
+                 </select>
+                <label>Fecha de nacimiento</label>
+                <input type="date" name="fecha-nacimeinto">
+                <label>Sexo</label>
+                <select name="sexo" id="sexo">
+                    <option value="ninguno">Seleccione una opcion</option>
+                    <option value="f">Femenino</option>
+                    <option value="m">Masculino</option>
+                    <option value="n-a">No quiero decirlo</option>
+                </select>
+                <label>Mensaje</label>
+                <textarea rows="4" cols="25" name="mensaje"></textarea>
+                <input type="submit" value="Contactanos"></input>
+            </form>
+        </div>
         </section>
 
-        <footer class="footer-container">
+         <footer class="footer-container">
             <article class="footer">
             <div class="col-f">
             <img src="asset/images/logo-repro.png" alt="logo-footer" class="logo-footer">
@@ -124,6 +107,5 @@
         <p>Todos los derechos reservados <i class="fa-regular fa-copyright"></i>2026. Sitio web desarrollado por: Jeramy Camperos</p>
     </article>
         </footer>
-
     </body>
-</html>
+    </html>
