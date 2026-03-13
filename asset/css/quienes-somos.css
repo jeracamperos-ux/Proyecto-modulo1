@@ -29,3 +29,41 @@
     text-align: left;
 }
 
+.quienes-somos2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: var(--gray-dark);
+    padding: 80px;
+    gap: 50px;
+    text-align: left;
+
+}
+
+.quienes-somos2 h1{
+    color: var(--primary-color);
+    font-size: 70px;
+    font-weight: 800px;
+    text-align: center;
+}
+
+.quienes-somosrepro{
+    inline-size: 800px;
+    overflow-wrap: break-word;
+    line-height: 30px;
+    text-align: justify;
+
+}
+
+.video{
+    width: 500px;
+    height: 600px;
+
+}
+
+.servicios-qs{
+    display: grid;
+    grid-template-columns: 1fr;
+    color: var(--gray-dark);
+    padding: 20px;
+    
+}
