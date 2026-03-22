@@ -30,12 +30,13 @@
 }
 
 .quienes-somos2{
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 1fr;
     color: var(--gray-dark);
     padding: 80px;
     gap: 50px;
     text-align: left;
+    justify-content: center;
 
 }
 
@@ -49,29 +50,68 @@
 .quienes-somosrepro{
     inline-size: 800px;
     overflow-wrap: break-word;
-    line-height: 40px;
+    line-height: 30px;
     text-align: justify;
 
 }
 
 .video{
-    width: 500px;
-    height: 600px;
-
+    width: 300px;
+    height: 500px;
+ justify-content: center;
 }
 
-.lista1 h2{
-    color: var(--primary-color);
-    font-size: 50px;
-    font-weight: 250px;
+.vision{
+    background-color: var(--primary-color);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+    align-items: start;
+}
+
+.col h2{
+     color: var(--white);
+    font-size: 40px;
+    font-weight: 70;
     text-align: center;
 }
 
-.lista1{
+.col h3{
+     color: var(--white);
+    font-size: 40px;
+    font-weight: 70;
+    text-align: center;
+}
+
+.col h4{
+    color: var(--white);
+    font-size: 40px;
+    font-weight: 70;
+    text-align: center;
+
+}
+
+
+.col p{
+    color: var(--white);
+    font-size: 16px;
+    padding: 10px;
+   text-align: center;
+
+}
+
+.porque{
+    background-color: var(--white);
     color: var(--gray-dark);
-    display: grid;
-    padding: 70px;
-    gap: 50px;
+    padding: 50px 30px;
     text-align: justify;
-    line-height: 40px;
+    row-gap: 20px;
+    font-size: 16px;
+}
+
+.porque1 h4{
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 36px;
 }

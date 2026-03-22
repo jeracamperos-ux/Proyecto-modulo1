@@ -32,4 +32,13 @@
     grid-template-columns: 1fr;
 }
 
+.quienes-somos2{
+    display: grid;
+    grid-template-columns: 1fr;
+}
 
+
+.vision{
+    display: grid;
+    grid-template-columns: 1fr;
+}
